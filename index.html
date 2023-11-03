@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="icon" type="image/png" href="images/cdd64.png"/>
-    <!--Materializazo-->
+    <!--Materialize-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
   </head>
@@ -15,11 +15,12 @@
       <!-- Navbar -->
       <div class="navbar-fixed">
         <nav>
-          <div class="nav-wrapper indigo darken-3">          
+          <div class="nav-wrapper indigo darken-3 ">          
             <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large">
               <i class="material-icons">menu</i>
             </a>
-            <a href="index.html" class="brand-logo center">Fomento para la Creación de Materiales Docentes</a>
+            <a href="index.html" class="brand-logo center"><img src="images/LogoProyecto/Blanco.png" width="52" height="50%" alt="CdD"/> FOCREMDO</a>
+            <!--style="font-size: x-large" -->
           </div>
         </nav>
       </div>
@@ -30,16 +31,18 @@
           <li><a href="#descripcion"><i class="material-icons left">local_library</i>Nosotros</a></li>
           <li><a href="#equipo"><i class="material-icons left">supervisor_account</i>Equipo</a></li>
           <li><a href="#productos"><i class="material-icons left">video_library</i>Productos</a></li>
-          <!--
-          <li><a href="#opinion"><i class="material-icons left">description</i>Cuestionarios de opinión</a></li>-->
+          <li><a href="#eventos"><i class="material-icons left">date_range</i>Eventos</a></li>
       </ul>
     </header>
       
     <!-- Main -->
     <main>
-      <div class="row center">
-        <div class="col l12 m7 s12">
-          <h2>Sobre este sitio</h2>      
+      <div class="row center-align">
+        <div class="col l3 offset-l1 m5 s12 center">
+          <img class="responsive-img" src="images/LogoProyecto/Color.png" alt="LogoPAPIME">          
+        </div>
+        <div class="col l17 m7 s12 center">
+          <h2><b>Fomento para la Creación de Materiales Docentes</b></h2>      
         </div>
       </div>
 
@@ -50,66 +53,139 @@
         <!--General-->
         <div class="col l10 offset-l1 s12 m10 offset-m1 card-panel hoverable">
           <span align="justify">
-            <h5><b>Descripción general del proyecto</b></h5>
-            <p>Se busca generar material audiovisual que le permita la docente poder actualizar o mejorar su material didáctico de clase con el fin de permitirle a la alumna o alumno poder estudiarlo de una forma más practica, cubriendo las necesidades del proceso enseñanza-aprendizaje que las diferentes carreas de ingeniería requieran.</p>
-            <p>Este sitio web es una propuesta de solución desarrollado bajo el formato del proyecto PAPIME con el cual se pretende identificar y analizar las dificultades que presentan la enseñanza y el aprendizaje de las asignaturas para los profesores y estudiantes de la Facultad de Ingeniería.</p>
+            <h5><span class="indigo-text "><b>Descripción general del proyecto</b> </span></h5>
+            <P><strong>FOCREMDO</strong> es una iniciativa educativa que tiene como objetivo revolucionar la forma en que se crea y se comparte el material didáctico. Su misión principal es facilitar a los profesores la creación y actualización de recursos pedagógicos, con el fin de potenciar la calidad de la enseñanza.</P>
             <p>Para el desarrollo del sitio se creó material original como videos, infografías, presentaciones y fotografías. Se utilizó el framework de front end <a href="https://materializecss.com/">Materialize</a>.</p>
           </span>
         </div>
       </div>
-          </span>
+
+      <!--Objetivos-->
+      <div class="row " id ="descripcion">
+        <div class="col l10 offset-l1 s12 m10 offset-m1 card-panel hoverable">
+          <span align="justify"></span>
+            <h5><span class="indigo-text "><b>Objetivos</b></span></h5></span> 
+            <img class="responsive-img" src="images/Objetivos.drawio.png" alt="LogoPAPIME">          
+            <!--ul class="browser-default" align="justify">
+              <li> Dotar de capacidades a los académicos, que les permitan mediante una “mezcla de herramientas y servicios”, dar un nuevo enfoque a su docencia.</li>
+              <li> Expandir las capacidades de evaluación y docencia usando una base tecnológica que permita dirigirse a una personalización de la educación.</li>
+              <li>Conocer y difundir las herramientas, servicios y conceptos que en torno a la docencia le sirvan al cuerpo académico de la FI para adaptarse a las nuevas necesidades de la enseñanza.</li>
+            </ul--> 
         </div>
       </div>
 
         <!--Equipo-->
-      <div class="row" id="equipo">
+      <div class="row " id="equipo">
         <div class="col l10 offset-l1 s12 m10 offset-m1">
-          <span align="justify">
-            <h5><b>El equipo de trabajo</b></h5>
-            <h6><b>Responsable</b></h6>
-            <p><b>M. en I. Ángel César Govantes Sáldivar</b>
-              <br>Técnico Académico Asociado B de Tiempo Completo en el Departamento de Computación de la División de Ingeniería Eléctrica en la Facultad de Ingeniería.</p>
-            <br>
-            <h6><b>Corresponsable</b></h6>
-            <p><b>M. en I. Norma Elva Chavez Rodríguez</b>
-              <br>Técnico Académico Titular B de Tiempo Completo en el Departamento de Computación de la División de Ingeniería Eléctrica en la Facultad de Ingeniería.</p>
-            <br>  
-            <h6><b>Académicos Participantes</b></h6>
-            <p><b>M. en I. Cruz Serguio Aguilar Díaz</b>
-              <br>Profesor de Asignatura en la División de Ingeniería Eléctrica de la Facultad de Ingeniería.</p>
-            <p><b>M. en I. Octavio Arenas Covarrubias</b>
-              <br>Profesor de Asignatura en la División de Ingeniería Mécanica e Industrial de la Facultad de Ingeniería.</p>
-            <p><b>M. en C. Laura Sandoval Montaño</b>
-              <br>Profesor Titular B de Tiempo Completo en la División de Ingeniería Eléctrica de la Facultad de Ingeniería.</p>
-            <p><b>Ing. Carlos Alberto Román Zamitis</b>
-              <br>Profesor de Asignatura en la División de Ingeniería Eléctrica de la Facultad de Ingeniería.</p>   
-            <br>
-            <h6><b>Estudiantes Participantes</b></h6>
-            <p><b>Ana </b>
-              <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería de la UNAM.</p>
-            <p><b>Axel Guiliam Salazar Montoya </b>
-              <br>Estudiante de Ingeniería Industrial Facultad de Ingeniería de la UNAM.</p>
-            <p><b>Carolina Álvarez Rodea</b>
-              <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería de la UNAM.</p>
-            <p><b>Fernanda </b>
-              <br>Estudiante en la Facultad de Ciencias de la UNAM.</p>
-            <p><b>Jorge</b>
-              <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería de la UNAM.</p>
-            <p><b>Karen</b>
-              <br>Estudiante de Sistemas Computacionales de la UNITEC.</p>
-            <p><b>Saul</b>
-              <br>Estudiante de Diseño Industrial en la Facultad de Estudios Superiores Unidad Aragón.</p>
-            <p><b>David Antonio</b>
-              <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería de la UNAM.</p>
-            <p><b>Luz Jackeline Anzures Gonzáles</b>
-              <br>Estudiante de Ingeniería Petrolera Facultad de Ingeniería de la UNAM.</p>
-            <p><b>Emanuel López Hernández</b>
-              <br>Pasante de Ingeniería en Computación, Facultad de Ingeniería de la UNAM.</p>
-            </span>
+          <h5><b>El equipo de trabajo</b></h5>
+          <!--Responsables-->
+          <table class="responsive-table">
+            <thead >
+              <tr>
+                <th></th>  
+                <th>Responsable</th>
+                <th></th>
+                <th>Corresponsable</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="images/Colaboradores/govantes.jpeg" alt="" class="circle" width="50" height="48%"></td>
+                <td><b>M. en I. Ángel César Govantes Sáldivar</b>
+                  <br>Técnico Académico Asociado B de Tiempo Completo en el Departamento de Computación de la División de Ingeniería Eléctrica en la Facultad de Ingeniería.</p></td>
+                <td><img src="images/Colaboradores/norma.jpeg" alt="" class="circle" width="52" height="50%"></td>
+                <td><b>M. en I. Norma Elva Chavez Rodríguez</b>
+                  <br>Técnico Académico Titular B de Tiempo Completo en el Departamento de Computación de la División de Ingeniería Eléctrica en la Facultad de Ingeniería.</td>
+              </tr>
+            </tbody>
+          </table>
+          <!--Academicos-->
+          <h5><b>Académicos Participantes</b></h5>
+          <table class="responsive-table">
+            <tbody>
+              <tr>
+                <td><img src="images/Colaboradores/sergio.jpg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>M. en I. Cruz Serguio Aguilar Díaz</b>
+                  <br>Profesor de Asignatura en la División de Ingeniería Eléctrica de la Facultad de Ingeniería.</td>
+                <td><img src="images/Colaboradores/img1.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>M. en I. Octavio Arenas Covarrubias</b>
+                  <br>Profesor de Asignatura en la División de Ingeniería Mécanica e Industrial de la Facultad de Ingeniería.</td>
+              </tr>
+              <tr>
+                <td><img src="images/Colaboradores/img1.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>M. en C. Laura Sandoval Montaño</b>
+                  <br>Profesor Titular B de Tiempo Completo en la División de Ingeniería Eléctrica de la Facultad de Ingeniería.</p>
+                <td><img src="images/Colaboradores/img1.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><p><b>Ing. Carlos Alberto Román Zamitis</b>
+                  <br>Profesor de Asignatura en la División de Ingeniería Eléctrica de la Facultad de Ingeniería.</td>
+              </tr>
+              <tr>
+                <td><img src="images/Colaboradores/img1.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>M.A.T. Sergio Israel Franco García</b>
+                  <br>Coordinador del Sistema de Bibliotecas.</td>
+                <td><img src="images/Colaboradores/paola.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Ing. Paola </b>
+                  <br>.</td>
+              </tr>
+              <tr>
+                <td><img src="images/Colaboradores/rodrigo.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Ing. Rodrigo</b>
+                  <br>.</p>
+                <td><img src="images/Colaboradores/img1.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><p><b>Ing. </b>
+                  <br></td>
+              </tr>
+            </tbody>
+          </table>
+          <!--Estudiantes Participantes-->
+          <h5><b>Estudiantes Participantes</b></h5>
+          <table class="responsive-table">
+            <tbody>
+              <tr>
+                <td><img src="images/Colaboradores/ana.png" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Ana Laura Mendoza Millán</b>
+                  <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería de la UNAM.</p>
+                </td>
+                <td><img src="images/Colaboradores/axel.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Axel Guiliam Salazar Montoya </b>
+                  <br>Estudiante de Ingeniería Industrial Facultad de Ingeniería de la UNAM.</td>
+              </tr>
+              <tr>
+                <td><img src="images/Colaboradores/caro.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Carolina Álvarez Rodea</b>
+                  <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería de la UNAM.</td>
+                <td><img src="images/Colaboradores/fer.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Fernanda </b>
+                  <br>Estudiante en la Facultad de Ciencias de la UNAM.</td>
+              </tr>
+              <tr>
+                <td><img src="images/Colaboradores/jorge.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Jorge Arturo Díaz Castilleja</b>
+                  <br>Estudiante de Ingeniería Eléctrica-Electrónica de la Facultad de Ingeniería de la UNAM.</td>
+                <td><img src="images/Colaboradores/saul.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Saul Uriel Cruz Díaz</b>
+                  <br>Egresado de Diseño Industrial en la Facultad de Estudios Superiores Aragón.
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/Colaboradores/img1.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>David Antonio Sánchez Ramírez</b>
+                  <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería de la UNAM.</td>
+                <td><img src="images/Colaboradores/luz.png" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Luz Jackeline Anzures Gonzáles</b>
+                  <br>Estudiante de Ingeniería Petrolera Facultad de Ingeniería de la UNAM.</td>
+              </tr>
+              <tr>
+                <td><img src="images/Colaboradores/emanuel.jpeg" alt="" class="circle" width="50" height="50%"></td>
+                <td><b>Emanuel López Hernández</b>
+                  <br>Pasante de Ingeniería en Computación, Facultad de Ingeniería de la UNAM.</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
-        <!--Productos-->
+      <!--Productos-->
       <div class="row" id="productos">
         <div class="col l10 offset-l1 s12 m10 offset-m1">
         <h5><b>Productos</b></h5>
@@ -122,7 +198,7 @@
                 <div class="row">
                   <div class="col l10 m10 offset-l1 offset-m1 s12 center">
                     <h4><b>"Titulo de video"</b></h4>
-                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/EWxYN3pzxlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="25%" height="150" src="https://www.youtube.com/embed/EWxYN3pzxlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p class="indigo-text text-darken-3"><b>Creado por:</b> Nombre colaborador.</p>
                   </div>
                 </div>
@@ -130,20 +206,32 @@
           </ul>
         </div>
       </div> 
-
-      <!--Cuestionario-->
-      <!-- <div class="row" id="opinion">
-        <ul class="collapsible popout col l10 offset-l1 s12 m10 offset-m1">
-          Tema 2
-          <li>
-            <div class="collapsible-header"><h5><b><i class="material-icons left">assignment_turned_in</i>Cuestionarios de opinión sobre el sitio web y el proyecto</b></h5></div>
-              <div class="collapsible-body">         
-                <iframe src="https://drive.google.com/embeddedfolderview?id=1RzwfM61q_isgNQon_wgw4q8eXjXLuPX8#list" width="100%" height="200" frameborder="0"></iframe>
-              </div> 
-            </div>
-          </li>
-        </ul>
-      </div> -->
+      <!--Eventos-->
+      <div class="row" id="eventos">
+        <div class="col l10 offset-l1 s12 m10 offset-m1">
+        <h5><b>Eventos en el Centro de Docencia "Ing. Gilberto Borja Navarrete"</b></h5>
+          <ul class="collapsible popout">
+            <li> <!--1ra Reunion-->
+              <div class="collapsible-header"><h5><i class="material-icons">date_range</i><b>1ra Reunión de Fomento de Creación de Materiales Docentes</b></h5></div>
+              <div class="collapsible-body">
+                <iframe src="https://drive.google.com/file/d/1R7Iq5bjSP2K8bGwtRncu9qIoGHk8Y7W_/preview" width="100%" height="480"></iframe>
+              </div>
+            </li>
+            <li> <!--2da Reunion-->
+              <div class="collapsible-header"><h5><i class="material-icons">date_range</i><b>2da Reunión de Fomento de Creación de Mareriales Docentes</b></h5></div>
+              <div class="collapsible-body">
+                <iframe src="https://drive.google.com/file/d/1R7Iq5bjSP2K8bGwtRncu9qIoGHk8Y7W_/preview" width="100%" height="480"></iframe>
+              </div>
+            </li>
+            <li> <!--3ra Reunion-->
+              <div class="collapsible-header"><h5><i class="material-icons">date_range</i><b>3ra Reunión de Fomento de Creación de Materiales Docentes</b></h5></div>
+              <div class="collapsible-body">
+                <iframe src="https://drive.google.com/file/d/1R7Iq5bjSP2K8bGwtRncu9qIoGHk8Y7W_/preview" width="100%" height="480"></iframe>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div> 
     </main>  
 
     <!-- Footer -->
@@ -151,8 +239,19 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
+            <!--Agradecimientos-->
+            <h5>Agradecimientos:</h5>
+            <ul class="browser-default">
+              <li>Al Centro de Docencia "Ing. Gilberto Borja Navarrete</li>
+              <li>Al Departamento de Computación</li>
+              <li>A la Unidad de Servicios de Cómputo Académic</li>
+              <li>A la Coordinación General de Bibliotecas de la Facultad de Ingeniería</li>
+              <li>A la Dra. Martha Rosa del Moral Nieto, Daniel Vargas y Pablo Lobato</li>
+            </ul>
+            <!--Credidos-->
             <h5 class="white-text">Este sitio web es el resultado del proyecto PAPIME PE112623.</h5>
-            <p class="grey-text text-lighten-4">Este sitio fue desarrollado por Carolina Álvarez bajo supervisión de representantes del Departamento de Computación de la Facultad de Ingeniería en la Universidad Nacional Autónoma de México.</p>
+            <p class="grey-text text-lighten-4">Este sitio fue desarrollado por Carolina Álvarez Rodea bajo supervisión de representantes del Departamento de Computación de la Facultad de Ingeniería en la Universidad Nacional Autónoma de México.</p>
+            
             <div class="row">
               <div class="col l2 s3">
                 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img align="center" alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.5/mx/88x31.png" /></a>
@@ -162,6 +261,7 @@
               </div>
             </div>
           </div>
+          <!--Contactos-->
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Contacto</h5>
             <br>
@@ -170,7 +270,10 @@
                 <a href="https://dgapa.unam.mx/index.php/fortalecimiento-a-la-docencia/papime" target="_blank"><img alt="dgapa" src="/images/dgapa_blanco.png" width="50%" height="50%"></a>
                 <br>
                 <br>
-                <a href="https://www.fi-b.unam.mx/info-pa.php?depto=computacion&nombre=CesarGovantes" target="_blank"><img alt="dgapa" src="/images/die_blanco.png" width="50%" height="50%"></a>
+                <a href="https://www.fi-b.unam.mx/" target="_blank"><img alt="centro de docencia" src="/images/die_blanco.png" width="50%" height="50%"></a>
+                <br>
+                <br>
+                <a href="https://www.centrodedocencia.unam.mx/index.php" target="_blank"><img alt="unica" src="images/Centro de docencia/Blanco.png" width="25%" height="25%"></a>
               </li>
             </ul>
           </div>
